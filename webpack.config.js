@@ -14,8 +14,6 @@ module.exports = {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
       },
-    ],
-    rules: [
       {
         test: /\.s[ac]ss$/i,
         use: [
@@ -27,7 +25,19 @@ module.exports = {
           "sass-loader",
         ],
       },
-    ],
+      {
+      test: /\.(?:js|mjs|cjs)$/,
+      exclude: /node_modules/,
+      use: {
+        loader: 'babel-loader',
+        options: {
+            presets: [
+              ['@babel/preset-env', { targets: "defaults" }]
+            ]
+          }
+        }
+      }
+    ]
   },
   plugins: [
     new HtmlWebpackPlugin({
