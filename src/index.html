@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Leaderboard Project</title>
+		<link rel="stylesheet" href="./css/global.css">
+		<link rel="stylesheet" href="./css/styles.css">
+	</head>
+
+	<body>
+		<header>
+			<h1>Leaderboard</h1>
+		</header>
+
+		<main class="flex container">
+			<section id="recent-section">
+				<div class="recent-scores flex">
+					<h2>Recent scores</h2>
+					<button class="refresh">Refresh</button>
+				</div>
+				<div class="scores">
+					<ul class="scores-items">
+						<li class="score-item">Name: 100</li>
+						<li class="score-item gray">Name: 20</li>
+						<li class="score-item">Name: 50</li>
+						<li class="score-item gray">Name: 78</li>
+						<li class="score-item">Name: 125</li>
+						<li class="score-item gray">Name: 77</li>
+						<li class="score-item">Name: 42</li>
+					</ul>
+				</div>
+			</section>
+
+			<section id="add-section">
+				<div class="header">
+					<h2>Add your score</h2>
+				</div>
+				<div class="input-fields flex">
+					<input type="text" name="name" id="name" placeholder="Your name"><br>
+					<input type="number" name="score" id="score" placeholder="Your score">
+					<button type="submit">Submit</button>
+				</div>
+			</section>
+		</main>
+	</body>
+
+</html>

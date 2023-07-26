@@ -1,0 +1,65 @@
+h1 {
+  font-size: 4rem;
+  margin: 2rem;
+}
+
+#recent-section {
+  min-width: 20rem;
+}
+
+.recent-scores {
+  margin: 1rem 0;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.recent-scores h2 {
+  font-size: 2rem;
+}
+
+.recent-scores .refresh {
+  padding: 0.2rem 0.5rem;
+}
+
+.scores {
+  border: 2px solid #000;
+}
+
+.scores .scores-items {
+  list-style: none;
+}
+
+.scores .scores-items .score-item {
+  padding: 0.2rem 0.5rem;
+}
+
+.header {
+  margin: 1rem 0;
+}
+
+.header h2 {
+  font-size: 2rem;
+}
+
+.input-fields {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.input-fields input {
+  padding: 0.2rem 0.5rem;
+}
+
+.input-fields button {
+  margin-top: 1rem;
+  -ms-flex-item-align: end;
+  -ms-grid-row-align: end;
+  align-self: end;
+  padding: 0.2rem 0.5rem;
+}

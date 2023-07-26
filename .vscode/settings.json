@@ -1,0 +1,6 @@
+{
+	"editor.formatOnSaveMode": "modifications",
+	"editor.tabSize": 2,
+	"files.autoSave": "afterDelay",
+	"editor.formatOnSave": true
+}

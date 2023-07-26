@@ -1,0 +1,56 @@
+h1 {
+  font-size: 4rem;
+  margin: 2rem;
+}
+
+#recent-section {
+  min-width: 20rem;
+}
+
+.recent-scores {
+  margin: 1rem 0;
+  justify-content: space-between;
+  align-items: center;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .refresh {
+    padding: 0.2rem 0.5rem;
+  }
+}
+
+.scores {
+  border: 2px solid #000;
+
+  .scores-items {
+    list-style: none;
+
+    .score-item {
+      padding: 0.2rem 0.5rem;
+    }
+  }
+}
+
+.header {
+  margin: 1rem 0;
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+.input-fields {
+  flex-direction: column;
+
+  input {
+    padding: 0.2rem 0.5rem;
+  }
+
+  button {
+    margin-top: 1rem;
+    align-self: end;
+    padding: 0.2rem 0.5rem;
+  }
+}

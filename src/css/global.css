@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: -webkit-box;
+  display: flex;
+}
+
+.gray {
+  background-color: #eee;
+}
+
+.container {
+  margin: 0 3rem;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
