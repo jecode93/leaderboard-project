@@ -2,7 +2,7 @@ import refresh from './refresh.js';
 import url from './url.js';
 
 const addScore = async (user, score) => {
-  const add = {user, score}
+  const add = { user, score };
 
   await fetch(url, {
     method: 'POST',
@@ -16,6 +16,6 @@ const addScore = async (user, score) => {
 
   document.getElementById('name').value = '';
   document.getElementById('score').value = '';
-}
+};
 
 export default addScore;

@@ -1,4 +1,4 @@
-import showScore from "./showScore.js";
+import showScore from './showScore.js';
 
 const showAll = (list) => {
   const scoreList = document.querySelector('.scores-items');

@@ -8,7 +8,7 @@ const showScore = (record) => {
   name.classList.add('player');
   score.textContent = record.score;
   score.classList.add('player-score');
-  li.classList.add('score-item')
+  li.classList.add('score-item');
   li.appendChild(name);
   li.appendChild(score);
 

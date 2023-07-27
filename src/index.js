@@ -1,7 +1,7 @@
 import './css/global.css';
 import './css/styles.css';
-import addScore from './modules/add-score';
-import refresh from './modules/refresh';
+import addScore from './modules/add-score.js';
+import refresh from './modules/refresh.js';
 import { saveData } from './modules/saveData.js';
 
 const refreshBtn = document.querySelector('.refresh');
@@ -15,9 +15,8 @@ submitBtn.addEventListener('click', async (event) => {
   event.preventDefault();
   const name = document.getElementById('name');
   const score = document.getElementById('score');
-    await addScore(name.value, score.value);
-  }
-);
+  await addScore(name.value, score.value);
+});
 
 // Preserve input in localStorage for user comfort
 document.querySelector('#name').onkeyup = saveData;
