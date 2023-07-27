@@ -47,8 +47,10 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
--Clone the repository.
--Create a directory in your device.
+- Clone the repository.
+- Open the directory in your device.
+- run `npm install` to install the project packages
+- run `npm run dev` to start the project on your browser without any errors
 
 ### Prerequisites
 
@@ -69,10 +71,6 @@ Example commands:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link will be available soon]()
 
 
 ## 👥 Authors <a name="authors"></a>
