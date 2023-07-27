@@ -1,10 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 $gray: #eee;
 $error: red;
+$white: white;
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-image: url('https://cdn.vox-cdn.com/thumbor/SbW72hqnKVxRP74Y0aNsqi95Kks=/0x0:4000x2252/1200x800/filters:focal(1636x873:2276x1513)/cdn.vox-cdn.com/uploads/chorus_image/image/71927142/466092953.0.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $white;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 .flex {
@@ -17,7 +27,8 @@ $error: red;
 
 .container {
   margin: 0 3rem;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 4rem;
 }
 
 .hide {

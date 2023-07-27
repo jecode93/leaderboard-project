@@ -1,6 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.cover {
+  background-color: rgba(0, 0, 255, 0.5);
+  max-width: 50%;
+  padding: 2rem;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
 h1 {
   font-size: 4rem;
   margin: 2rem;
+  text-align: center;
 }
 
 #recent-section {
@@ -22,11 +38,24 @@ h1 {
 }
 
 .recent-scores .refresh {
-  padding: 0.2rem 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #eeeded;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.recent-scores .refresh:hover {
+  background-color: blue;
+  cursor: pointer;
+  color: white;
 }
 
 .scores {
-  border: 2px solid #000;
+  background-color: #f0de36;
+  color: #000;
+  border-radius: 8px;
 }
 
 .scores .scores-items {
@@ -34,7 +63,7 @@ h1 {
 }
 
 .scores .scores-items .score-item {
-  padding: 0.2rem 0.5rem;
+  padding: 0.5rem 1rem;
 }
 
 .header {
@@ -53,7 +82,9 @@ h1 {
 }
 
 .input-fields input {
-  padding: 0.2rem 0.5rem;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 8px;
 }
 
 .input-fields button {
@@ -62,4 +93,16 @@ h1 {
   -ms-grid-row-align: end;
   align-self: end;
   padding: 0.2rem 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #eeeded;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.input-fields button:hover {
+  background-color: blue;
+  cursor: pointer;
+  color: white;
 }
