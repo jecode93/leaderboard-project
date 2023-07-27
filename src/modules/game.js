@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
 fetch(url, {
   method: 'POST',
@@ -10,4 +9,4 @@ fetch(url, {
   },
 })
   .then((response) => response.json())
-  .then((json) => console.log(json));
+  .then((json) => json);
