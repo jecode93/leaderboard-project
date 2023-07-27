@@ -19,3 +19,15 @@
   -ms-flex-pack: distribute;
   justify-content: space-around;
 }
+
+.hide {
+  display: none;
+}
+
+.error {
+  color: red;
+}
+
+.show {
+  display: block;
+}
