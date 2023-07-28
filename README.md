@@ -71,7 +71,10 @@ Example commands:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
+## Live Demo
+See the project here: [Live demo](https://leaderboard-jecode93.netlify.app/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
